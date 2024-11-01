@@ -1,0 +1,35 @@
+#wpctatb_hidden {
+	height:0px; 
+	visibility:hidden;
+}
+
+#wpctatopbar {
+    display: none;
+}
+
+#wpctatopbar {
+	position: fixed;
+    z-index: 9999;
+    left: 0px;
+    top: 0;
+    padding: 4px 20px 3px;
+}
+
+#wpctatb_content {
+	display: inline-block;
+	line-height: 40px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 98%;
+    font-weight: 300;	
+}
+
+#wpctatb_close {
+	display: inline-block;
+    width: 2%;
+}
+
+#wpctatb_close a {
+    text-decoration: none;
+}
